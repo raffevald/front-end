@@ -1,0 +1,315 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/*-------------------------------------------------------------------------------*/
+/*Css da nav-bar*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #eaeaea;
+    font-family: Arial, sans-serif;
+    color: white;
+    box-shadow: 0 5px 5px rgba(0,0,0, .05);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.links {
+    margin-right: auto;
+}
+
+.nav-links li {
+    list-style: none;
+    height: 100%;
+    max-height: 50px;
+    margin-left: auto;
+    display: inline-flex;
+    display: block;
+    padding: 10px;
+}
+
+.nav-links li a {
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+/*----------------------------------------------------------------------------------------*/
+/*Esloga do site*/
+.esloga-site {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.esloga-site #nomeSite {
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.esloga-site div {
+    margin-left: auto;
+}
+
+.esloga-site div #eslaSite {
+    margin-left: 179px;
+}
+/*----------------------------------------------------------------------------------------*/
+/*Corpo do site*/
+.interface-site {
+    height: 100%;
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: auto;
+  /*  box-shadow: 0 5px 5px rgba(0,0,0, .4); */
+    padding: 15px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+/*Os blocos de noticia que ficara na tela principal - OK*/
+.noticia-principal{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+/*----------------------------------------------------------------------------------------*/
+/*Carrossel do site*/
+.container-carousel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 730px;
+    max-height: 300px;
+    margin-top: 10px;
+    border-radius: 25px;
+    margin-left: -5px;
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 300px;
+    margin-top: 10px;
+    border-radius: 25px;
+
+}
+
+/*-----------------------------------------------------------------------------------------*/
+/*Titulo noticas recentes*/
+.noticia-principal h1 {
+    margin: 0px;;
+    font-size: 30px;
+    margin-top: 55px;
+    margin-bottom: -30px;
+  /*  box-shadow: 0 5px 5px rgba(0,0,0, .2); */
+    border-radius: 25px;
+    height: 40px;
+    padding: 5px;
+}
+
+.noticia-principal a {
+    text-decoration: none;
+}
+
+#not-destaq{
+    margin-top: 20px;
+}
+/*---------------------------------------------------------------------------------------*/
+/*Container card New*/
+.container-card-news{
+    display: inline-flex;
+    margin-left: -15px;
+}
+/*--------------------------------------------------------------------------------------*/
+/*Card das noticias*/
+.col {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    margin-right: 6px;
+    *zoom: 1;
+    *display: inline;
+    margin-top: 20px;
+  }
+
+.news-cards{
+    width: 350px;
+    height: 200px;
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #DCDAE1;
+    margin-top: 15px;
+    border-radius: 25px;
+    box-shadow: 0 5px 5px rgba(0,0,0, .4);
+    padding: 4px;
+}
+
+.card-news-foto{
+    width: 100%;
+    height: 100%;
+    max-width: 190px;
+    max-height: 130px;
+    border-radius: 25px;
+    display: block;
+    position: absolute;
+    margin-left: 160px;
+}
+
+.news-cards h2 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    justify-content: space-around;
+    max-width: 350px;
+    max-height: 70px;
+    font-size: 18px;
+    margin-top: 135px;
+    text-align: center;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.news-cards p {
+    margin-top: 7px;
+    width: 85%;
+    height: 100%;
+    padding: 10px;
+    max-width: 140px;
+    text-align: justify;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 14px;
+}
+/*---------------------------------------------------------------------------------------*/
+/*Aside do site*/
+.propagandas {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    max-width: 350px;
+    margin-right: 8px;
+    margin-left: -10px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+/*Configurar os cards de anucios*/
+.noticia-principal aside {
+    width: 100%;
+    max-width: 300px;
+    height: 700px;
+}
+
+.cards-propagandas-container {
+    width: 330px;
+    height: 200px;
+    position: relative;
+    background-color: #DCDAE1;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    margin-bottom: 38px;
+    box-shadow: 0 5px 5px rgba(0,0,0, .4);
+    justify-content: space-between;
+    display: inline-block;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
+}
+/*-----------------------------------------------------------------------------------*/
+.cards-propagandas-container div {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Sobre o site e Midia Sociais*/
+.sobre-social-midias {
+    width: 1130px;
+    height: 160px;
+    margin: auto;
+  /*  box-shadow: 0 5px 5px rgba(0,0,0, .4); */
+    display: flex;
+}
+
+
+/*Sobre site*/
+.site-sobre {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.midias-sociais-site {
+    width: 100%;
+    max-width: 330px;
+    height: 100%;
+    max-height: 150px;
+    padding: 10px;
+}
+
+.midias-sociais-site div {
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.midias-sociais-site a {
+    background-color: #DCDAE1;;
+    padding: 8px;
+    border-radius: 25px;
+   /* Box-shadow: 0 5px 5px rgba(0,0,0, .4); */
+}
+
+.midias-sociais-site h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.sobre-social-midias h1 {
+    font-size: 18px;
+}
+
+
+/*Rodape do site*/
+.rodape-site {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #eaeaea;
+    font-family: Arial, sans-serif;
+    color: black;
+}
